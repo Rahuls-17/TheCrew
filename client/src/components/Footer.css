@@ -1,0 +1,12 @@
+/* footer.css */
+.footer {
+    
+    left: 0; /* Align to the left edge */
+    bottom: 0; /* Align to the bottom edge */
+    width: 100%; /* Set the width to full */
+    background-color: #000; /* Set background color to black */
+    color: #fff !important; /* Set text color to white */
+    padding: 20px 0; /* Add padding for better readability */
+    text-align: center; /* Center-align text */
+  }
+  

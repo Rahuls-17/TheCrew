@@ -1,0 +1,31 @@
+/* Ensure content doesn't get covered by navbar */
+.content-wrapper {
+  padding-top: 70px;  /* Adjust this value based on the height of your navbar */
+}
+
+/* Additional styles for the home page */
+.intro-container {
+  padding: 20px;
+  text-align: center;
+  background-color: transparent;  /* Make background transparent */
+  margin: 20px auto;  /* Center the container */
+  max-width: 100%;  /* Cover almost the entire screen width */
+}
+
+.intro-container h3 {
+  font-size: 1.2em;  /* Smaller font size */
+  color: #d34208dc;  /* Lighter color for text */
+  line-height: 1.6;  /* Improved readability */
+  margin: 0;  /* Remove default margin */
+}
+
+@media (max-width: 768px) {
+  .intro-container {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .intro-container h3 {
+    font-size: 1em;  /* Adjust font size for smaller screens */
+  }
+}

@@ -1,0 +1,58 @@
+/* OurWork.css */
+
+/* Define color variables */
+:root {
+    --primary-color: #ef7029;
+    --secondary-color: #fc9d1f;
+    --background-color: #fff5e7;
+}
+
+/* Page Container */
+.page-container {
+  padding: 20px;
+}
+
+/* Category Container */
+.category {
+  margin-bottom: 40px;
+}
+
+/* Category Title */
+.category-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+  font-family: 'Arial', sans-serif; /* Change the font family */
+}
+
+/* Subcategory Title */
+.subcategory-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px; /* Adjusted margin-top for more spacing */
+  margin-bottom: 20px; /* Adjusted margin-bottom for more spacing */
+  color: var(--secondary-color);
+  font-family: 'Arial', sans-serif; /* Change the font family */
+}
+
+/* Container for Thumbnail and Posts */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Style for Thumbnail and Posts */
+.container-item {
+  flex: 1 1 300px; /* Adjust the width as needed */
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  font-family: 'Arial', sans-serif; /* Change the font family */
+}
+
+/* Additional styling for Video containers */
+/* Add any specific styles for video containers here */
